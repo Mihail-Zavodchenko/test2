@@ -10,7 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
+            int a;
+            Console.Write("введите длину:");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Площадь квадрата:"+(a * a).ToString());
             Console.Read();
         }
     }
